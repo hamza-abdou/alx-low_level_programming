@@ -4,7 +4,7 @@
 /**
  *main - entry point
  *Description: 'get the last digiti of a number'
- *Return always 0
+ *Return: always 0
 */
 int main(void)
 {
