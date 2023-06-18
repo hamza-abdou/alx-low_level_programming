@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ *main - Entry point
+ *Description: 'prints the lowercase alphabet in reverse'
+ *Return: always 0
 */
 int main(void)
 {
-	int n = 122;
-	while (n >= 97)
+	int n;
+
+	for (n = 122; n >= 97; n--)
 	{
 		putchar(n);
-		n--;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
