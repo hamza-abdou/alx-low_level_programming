@@ -4,20 +4,18 @@
  *Description: 'prints the alphabet in lowercase'
  *Return: always 0
 */
-int main(void) 
+int main(void)
 {
-	int n = 97;
+	int lettre;
 
-	while (n <= 122)
-	{	
-		if (n == 101 || n == 113)
+	for (lettre = 'a'; lettre <= 'z'; lettre++)
+	{
+		if (lettre == 'q' || lettre == 'e')
 		{
-			n++;
 			continue;
 		}
-		putchar(n);
-		n++;
+		putchar(lettre);
 	}
 	putchar('\n');
 	return (0);
-}	
+}
