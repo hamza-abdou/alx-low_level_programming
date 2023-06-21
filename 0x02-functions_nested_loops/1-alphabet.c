@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *description: 'prints the alphabe'
+ *print_alphabet -  prints the alphabet, in lowercase
+ *
+ *Return: always 0
 */
 void print_alphabet(void)
 {
