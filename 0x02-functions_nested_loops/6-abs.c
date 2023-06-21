@@ -8,14 +8,14 @@
  */
 int _abs(int r)
 {
-        int nbre = abs(r);
+	int nbre = abs(r);
 
-        if (nbre)
-        {
-                return (nbre);
-        }
-        else
-        {
-                return (nbre);
-        }
+	if (nbre)
+	{
+		return (nbre);
+	}
+	else
+	{
+	return (nbre);
+	}
 }
