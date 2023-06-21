@@ -1,4 +1,6 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 /**
  *_isalpha - shwon 1 if the input is a
  *letter another cases, shown 0

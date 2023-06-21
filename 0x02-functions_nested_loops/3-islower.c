@@ -1,4 +1,6 @@
 #include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  *_islower - checks for lowercase character.
  *@c: the caractere anothers cases show
