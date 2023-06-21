@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  *_islower - checks for lowercase character.
  *@c: the caractere anothers cases show
@@ -5,7 +6,9 @@
  */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
+	int nbre = islower(c);
+
+	if (nbre)
 	{
 		return (1);
 	}
