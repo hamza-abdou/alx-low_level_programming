@@ -5,7 +5,7 @@
  *@c: variable c
  *@s: variable s
  *
- *Return: 0 
+ *Return: 0
  */
 char *_strchr(char *s, char c)
 {
