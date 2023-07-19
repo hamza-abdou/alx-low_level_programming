@@ -5,13 +5,13 @@
  *@array: pointeus
  *@size: variable
  *@action: pointeurs
- *Return: always 0 
+ *Return: always 0
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
 
-	for (i = 0;i < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		(*action)(array[i]);
 	}
