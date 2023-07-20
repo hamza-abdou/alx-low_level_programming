@@ -5,7 +5,7 @@
  *@array: pointeurs
  *@size: variable
  *@cmp: variable
- *return: always
+ *Return: always
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
