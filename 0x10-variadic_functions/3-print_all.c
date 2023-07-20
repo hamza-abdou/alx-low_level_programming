@@ -4,8 +4,8 @@
 #include <stdarg.h>
 
 /**
- * print_all - prints 
- * @format: a list of types of 
+ * print_all - prints
+ * @format: a list of types of
  *
  * Return: no return.
  */

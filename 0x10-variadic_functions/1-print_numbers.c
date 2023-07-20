@@ -5,8 +5,8 @@
 
 /**
  * print_numbers - prints numbers.
- * @separator: string 
- * @n: number 
+ * @separator: string
+ * @n: number
  *
  * Return: no return.
  */

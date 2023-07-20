@@ -4,8 +4,8 @@
 #include <stdarg.h>
 /**
  * print_strings - prints strings
- * @separator: string to be 
- * @n: number of strings passed 
+ * @separator: string to be
+ * @n: number of strings passed
  *
  * Return: no return.
  */
